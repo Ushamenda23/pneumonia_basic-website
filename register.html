@@ -1,0 +1,29 @@
+<html><head>
+    <title>Registration Page</title><meta name="viewport" content="width=device-width">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="style.css"></head><body> <div class="login">
+     <h1 class="text-center">Registration page</h1>
+    <form method="post" id="login_form" name="login_form" action="#"><div class="form-group">
+      <label class="form-label" for="name">Name</label>
+      <input type="name"  class="form-control" name="name" minlength=4 id="name" required>  </div>
+     <div class="form-group"><label  class="form-label" for="fathername">Fathername</label>
+    <input type="fathername"  class="form-control" name="fathername" minlength=8 id="fathername" required>
+     </div><div class="form-group”> <label  class="form-label" for="email">Email</label>
+      <input type="email"  class="form-control" name="email" minlength=8 id="email" required> </div> 
+    <div class="form-group”> <label  class="form-label" for="address">Address</label>
+     <input type="address"  class="form-control" name="address"  minlength=5 id="address" required>   </div>
+     Gender:<input class="form-check-input" type="radio" name="radio" id="radio" value="option1" checked required><label class="form-check-label" for="radio" required>Male </label>
+     <input class="form-check-input" type="radio" name="radio" id="radio" value="option2" checked required>
+    <label class="form-check-label" for="radio" required> Female</label><br>
+       <div class="form-group"> <label>DateOfBirth:</label><br>
+            <input type="text" name="dob" class="form-control" id="DateOfBirth" required><br>   </div>
+    <div class="form-group"><label>Qualification:</label><br>
+    <input type="qualification"  class="form-control" name="qualification" minlength=4 id="qualification" required> </div> <div class="form-group">
+     <label>Classes You Can Teach:</label><br>
+    <input type="classes"  class="form-control" name="classes" minlength=5 id="classes" required> </div>
+     <div class="form-group”><label>Subjects You Can Teach :</label><br>
+    <input type="subjects"  class="form-control" name="subjects" minlength=3 id="subjects" required> </div> <input class="btn btn-success w-100" type="submit" value="submit">
+    </form></div> </body></html>
+    
+    
